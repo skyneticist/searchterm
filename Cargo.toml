@@ -1,0 +1,18 @@
+[package]
+name = "bam"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+inquire = "0.6.2"
+jwalk = "0.8.1"
+# tokio = "1.29.1"
+tokio-async = "0.0.0"
+tokio = { version = "1.29.1", features = ["full"] }
+tokio-util = "0.6"
+crossterm = "0.26.1"
+walkdir = "2.3.3"
+rayon = "1.7.0"
+tui = "0.19.0"
